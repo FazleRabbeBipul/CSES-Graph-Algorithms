@@ -60,7 +60,7 @@ void SolveCountingRooms()
     for (int row = 0; row < N; row++)
         for (int col = 0; col < M; col++)
             if (BuildingMap[row][col] != '#' && !visited[row][col])
-                RoomCount++,
+                RoomCount++, // new room found, and DFS call will make it's all cell visited
                     DFS(row, col);
 
     cout << RoomCount << endl;
