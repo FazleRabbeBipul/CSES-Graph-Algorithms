@@ -29,3 +29,10 @@ Given a set of cities and their connections, some cities may not be directly or 
 
 ### Building Roads Solution
 The goal is to connect different groups of cities using the minimum number of edges. Here's the approach using connected components concepts in graph theory, using DFS/BFS. Suppose counting N groups. Now, to connect all the cities of two different groups, just connect two cities from each group with a new edge. So, to connect all the different groups, we need N-1 new edges, and thus, every city will be connected to all other cities.
+
+
+## Message Route
+Given bidirectional connections of some computers, we are asked if it is possible to reach from Uolevi's computer (1) to Maija's computer (N). If possible, then print the shortest path; otherwise, print IMPOSSIBLE.
+
+### Message Route Solution 
+DFS runs level by level and even works if there's a cycle in the computer connections. Just initiate BFS from Uolevi's computer (1) and check if it can reach Maija's computer (N). Then, retrieve the shortest path by tracing the parent computer from which we came to Maija's computer (N).
