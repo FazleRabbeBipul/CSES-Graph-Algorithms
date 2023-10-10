@@ -22,3 +22,10 @@ We'll use a Breadth-First Search (BFS) traversal approach to solve this problem.
 5. Repeat this process, traversing level by level until we reach the destination cell 'B'.
 
 The path that reaches cell 'B' will be the shortest path, as we have traveled level by level, exploring the grid.
+
+## Building Roads
+[https://cses.fi/problemset/task/1666/](#building-roads)
+Given a set of cities and their connections, some cities may not be directly or indirectly connected to every other city. The task is to connect each city with others using the minimum number of newly added edges.
+
+### Building Roads Solution
+The goal is to connect different groups of cities using the minimum number of edges. Here's the approach using connected components concepts in graph theory, using DFS/BFS. Suppose counting N groups. Now, to connect all the cities of two different groups, just connect two cities from each group with a new edge. So, to connect all the different groups, we need N-1 new edges, and thus, every city will be connected to all other cities.
