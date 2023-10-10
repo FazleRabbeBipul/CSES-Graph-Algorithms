@@ -2,5 +2,6 @@
 README.md
 .vscode
 Counting_Rooms.bin
-gitignore
+.gitignore
 Labyrinth.bin
+Building_Roads.bin
