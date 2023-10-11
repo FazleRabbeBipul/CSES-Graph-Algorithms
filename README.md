@@ -36,3 +36,9 @@ Given bidirectional connections of some computers, we are asked if it is possibl
 
 ### Message Route Solution 
 DFS runs level by level and even works if there's a cycle in the computer connections. Just initiate BFS from Uolevi's computer (1) and check if it can reach Maija's computer (N). Then, retrieve the shortest path by tracing the parent computer from which we came to Maija's computer (N).
+
+## Building_Teams
+Given a group of many friends, we are asked to create two teams where no friends should be in the same team.
+
+### Building_Teams Solution
+Let's suppose we are in a friend group. If a student (stu1) is marked as team1, then all directly connected students (stu2) will be in team2. In the event that we find stu1 and stu2 marked in the same team, it's an 'IMPOSSIBLE' case. This occurs when there is a circle, and its length is odd.
