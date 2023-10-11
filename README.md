@@ -41,4 +41,4 @@ DFS runs level by level and even works if there's a cycle in the computer connec
 Given a group of many friends, we are asked to create two teams where no friends should be in the same team.
 
 ### Building_Teams Solution
-Let's suppose we are in a friend group. If a student (stu1) is marked as team1, then all directly connected students (stu2) will be in team2. In the event that we find stu1 and stu2 marked in the same team, it's an 'IMPOSSIBLE' case. This occurs when there is a circle, and its length is odd.
+Let's suppose we are in a friend group. If a student (stu1) is marked as team1, then all directly connected students (stu2) will be in team2. In the event that we find stu1 and stu2 marked in the same team, it's an 'IMPOSSIBLE' case. This occurs when there is a circle, and its length is odd.It can be easily solve by bipartite graph coloring, BFS concept.
