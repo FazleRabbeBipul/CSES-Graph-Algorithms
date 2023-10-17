@@ -42,3 +42,9 @@ Given a group of many friends, we are asked to create two teams where no friends
 
 ### Building_Teams Solution
 Let's suppose we are in a friend group. If a student (stu1) is marked as team1, then all directly connected students (stu2) will be in team2. In the event that we find stu1 and stu2 marked in the same team, it's an 'IMPOSSIBLE' case. This occurs when there is a circle, and its length is odd.It can be easily solve by bipartite graph coloring, BFS concept.
+
+## Round Trip
+Given connections of cities, Your task is to design a round trip that begins in a city, goes through two or more other cities, and finally returns to the starting city. Every intermediate city on the route has to be distinct.
+
+### Round Trip Soultion: 
+We can achieve this by utilizing Depth-First Search (DFS) traversal. During DFS traversal, if we encounter a city that has already been visited and it is not the parent city from which we arrived, then we have identified a cycle in the graph.
