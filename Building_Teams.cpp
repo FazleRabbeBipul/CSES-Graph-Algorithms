@@ -39,7 +39,7 @@ void BFS_TeamMaking(int stu)
 
 int main()
 {
-    cin >> Pupils >> NumberofFriendship;
+    cin >> Pupils >> NumberofFriendship;+
     while (NumberofFriendship--)
     {
         int frnd1, frnd2;
