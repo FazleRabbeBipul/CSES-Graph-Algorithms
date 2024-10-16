@@ -1,3 +1,77 @@
+# CSES Graph Algorithm Solutions
+
+This repository contains C++ solutions for various graph algorithm problems from the CSES Problem Set. These problems cover a wide range of graph concepts and algorithms, helping to strengthen problem-solving skills in competitive programming.
+
+## Table of Contents
+
+- [Problems Solution in C++](#problems-solution-in-c)
+- [Solution Approaches](#solution-approaches)
+
+## Problems Solution in C++
+
+Below is a list of graph algorithm problems from the CSES Problem Set that have been solved in this repository:
+
+1. [Counting Rooms](#counting-rooms-solution) - [Solution Idea](#counting-rooms-solution)
+2. [Labyrinth](#labyrinth-solution) - [Solution Idea](#labyrinth-solution)
+3. [Building Roads](#building-roads-solution) - [Solution Idea](#building-roads-solution)
+4. [Message Route](#message-route-solution) - [Solution Idea](#message-route-solution)
+5. [Building Teams](#building-teams-solution) - [Solution Idea](#building-teams-solution)
+6. [Round Trip](#round-trip-solution) - [Solution Idea](#round-trip-solution)
+7. [Monsters](#monsters-solution) - [Solution Idea](#monsters-solution)
+8. [Shortest Routes I](#shortest-routes-i-solution) - [Solution Idea](#shortest-routes-i-solution)
+9. [Shortest Routes II](#shortest-routes-ii-solution) - [Solution Idea](#shortest-routes-ii-solution)
+10. [High Score](#high-score-solution) - [Solution Idea](#high-score-solution)
+
+---
+
+## Solution Approaches
+
+### Counting Rooms Solution
+- **Link to Problem**: [Counting Rooms](https://cses.fi/problemset/task/1192)
+- **Solution Idea**: Use Depth First Search (DFS) to explore the grid. Each DFS call marks a new room, and we count how many such calls are made to determine the total number of distinct rooms.
+
+### Labyrinth Solution
+- **Link to Problem**: [Labyrinth](https://cses.fi/problemset/task/1193)
+- **Solution Idea**: Implement Breadth First Search (BFS) to explore all possible paths through the maze. BFS is ideal for finding the shortest path in an unweighted grid.
+
+### Building Roads Solution
+- **Link to Problem**: [Building Roads](https://cses.fi/problemset/task/1194)
+- **Solution Idea**: Use the Union-Find (Disjoint Set Union) algorithm to efficiently determine connected components and calculate the minimum number of roads needed to connect all the cities.
+
+### Message Route Solution
+- **Link to Problem**: [Message Route](https://cses.fi/problemset/task/1195)
+- **Solution Idea**: Dijkstra's algorithm is used to find the shortest path from the starting point to the destination, taking into account weighted edges.
+
+### Building Teams Solution
+- **Link to Problem**: [Building Teams](https://cses.fi/problemset/task/1196)
+- **Solution Idea**: Use BFS/DFS to check if the graph is bipartite by attempting to color the graph using two colors. If successful, the graph can be divided into two teams.
+
+### Round Trip Solution
+- **Link to Problem**: [Round Trip](https://cses.fi/problemset/task/1197)
+- **Solution Idea**: Detect cycles in the undirected graph using DFS or BFS. Once a cycle is found, the round trip can be constructed by backtracking.
+
+### Monsters Solution
+- **Link to Problem**: [Monsters](https://cses.fi/problemset/task/1198)
+- **Solution Idea**: A two-phase BFS: First, run BFS to propagate the monsters’ spread across the grid. Then, run BFS again to find the shortest safe path from the start to the exit.
+
+### Shortest Routes I Solution
+- **Link to Problem**: [Shortest Routes I](https://cses.fi/problemset/task/1199)
+- **Solution Idea**: Dijkstra's algorithm is used to find the shortest paths from the starting point to all other nodes in the graph.
+
+### Shortest Routes II Solution
+- **Link to Problem**: [Shortest Routes II](https://cses.fi/problemset/task/1200)
+- **Solution Idea**: Bellman-Ford algorithm is used to handle negative edge weights and detect potential negative cycles in the graph.
+
+### High Score Solution
+- **Link to Problem**: [High Score](https://cses.fi/problemset/task/1201)
+- **Solution Idea**: Use dynamic programming (DP) on a directed acyclic graph (DAG) to calculate the highest possible score while navigating the graph.
+
+---
+
+
+
+
+
 # CSES-Graph-Algorithms
 Tutorials for the complete problem set of CSES on graph algorithms, along with code solutions in C++.
 
