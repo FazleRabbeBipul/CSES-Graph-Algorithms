@@ -1,6 +1,6 @@
 # CSES Graph Algorithm Solutions
 
-This repository contains C++ solutions for various graph algorithm problems from the CSES Problem Set. These problems cover a wide range of graph concepts and algorithms, helping to strengthen problem-solving skills in competitive programming.
+This repository contains C++ solutions for various graph algorithm problems from the CSES Problem Set. The problems are solved using advanced graph algorithms, providing a comprehensive set of solutions for competitive programming practice.
 
 ## Table of Contents
 
@@ -11,63 +11,53 @@ This repository contains C++ solutions for various graph algorithm problems from
 
 Below is a list of graph algorithm problems from the CSES Problem Set that have been solved in this repository:
 
-1. [Counting Rooms](#counting-rooms-solution) - [Solution Idea](#counting-rooms-solution)
-2. [Labyrinth](#labyrinth-solution) - [Solution Idea](#labyrinth-solution)
-3. [Building Roads](#building-roads-solution) - [Solution Idea](#building-roads-solution)
-4. [Message Route](#message-route-solution) - [Solution Idea](#message-route-solution)
-5. [Building Teams](#building-teams-solution) - [Solution Idea](#building-teams-solution)
-6. [Round Trip](#round-trip-solution) - [Solution Idea](#round-trip-solution)
-7. [Monsters](#monsters-solution) - [Solution Idea](#monsters-solution)
-8. [Shortest Routes I](#shortest-routes-i-solution) - [Solution Idea](#shortest-routes-i-solution)
-9. [Shortest Routes II](#shortest-routes-ii-solution) - [Solution Idea](#shortest-routes-ii-solution)
-10. [High Score](#high-score-solution) - [Solution Idea](#high-score-solution)
-
----
+1. **[Counting Rooms](https://cses.fi/problemset/task/1192)** - [C++ Code](https://github.com/FazleRabbeBipul/CSES-Graph-Algorithms/blob/main/Counting_Rooms.cpp) | [Solution Idea](#counting-rooms-solution)
+2. **[Labyrinth](https://cses.fi/problemset/task/1193)** - [C++ Code](https://github.com/FazleRabbeBipul/CSES-Graph-Algorithms/blob/main/Labyrinth.cpp) | [Solution Idea](#labyrinth-solution)
+3. **[Building Roads](https://cses.fi/problemset/task/1194)** - [C++ Code](https://github.com/FazleRabbeBipul/CSES-Graph-Algorithms/blob/main/Building_Roads.cpp) | [Solution Idea](#building-roads-solution)
+4. **[Message Route](https://cses.fi/problemset/task/1195)** - [C++ Code](https://github.com/FazleRabbeBipul/CSES-Graph-Algorithms/blob/main/Message_Route.cpp) | [Solution Idea](#message-route-solution)
+5. **[Building Teams](https://cses.fi/problemset/task/1196)** - [C++ Code](https://github.com/FazleRabbeBipul/CSES-Graph-Algorithms/blob/main/Building_Teams.cpp) | [Solution Idea](#building-teams-solution)
+6. **[Round Trip](https://cses.fi/problemset/task/1197)** - [C++ Code](https://github.com/FazleRabbeBipul/CSES-Graph-Algorithms/blob/main/Round_Trip.cpp) | [Solution Idea](#round-trip-solution)
+7. **[Monsters](https://cses.fi/problemset/task/1198)** - [C++ Code](https://github.com/FazleRabbeBipul/CSES-Graph-Algorithms/blob/main/Monsters.cpp) | [Solution Idea](#monsters-solution)
+8. **[Shortest Routes I](https://cses.fi/problemset/task/1199)** - [C++ Code](https://github.com/FazleRabbeBipul/CSES-Graph-Algorithms/blob/main/Shortest_Routes_I.cpp) | [Solution Idea](#shortest-routes-i-solution)
+9. **[Shortest Routes II](https://cses.fi/problemset/task/1200)** - [C++ Code](https://github.com/FazleRabbeBipul/CSES-Graph-Algorithms/blob/main/Shortest_Routes_II.cpp) | [Solution Idea](#shortest-routes-ii-solution)
+10. **[High Score](https://cses.fi/problemset/task/1201)** - [C++ Code](https://github.com/FazleRabbeBipul/CSES-Graph-Algorithms/blob/main/High_Score.cpp) | [Solution Idea](#high-score-solution)
+11. **[Flight Discount](https://cses.fi/problemset/task/1202)** - [C++ Code](https://github.com/FazleRabbeBipul/CSES-Graph-Algorithms/blob/main/Flight_Discount.cpp) | [Solution Idea](#flight-discount-solution)
+12. **[Cycle Finding](https://cses.fi/problemset/task/1203)** - [C++ Code](https://github.com/FazleRabbeBipul/CSES-Graph-Algorithms/blob/main/Cycle_Finding.cpp) | [Solution Idea](#cycle-finding-solution)
+13. **[Flight Routes](https://cses.fi/problemset/task/1204)** - [C++ Code](https://github.com/FazleRabbeBipul/CSES-Graph-Algorithms/blob/main/Flight_Routes.cpp) | [Solution Idea](#flight-routes-solution)
+14. **[Round Trip II](https://cses.fi/problemset/task/1205)** - [C++ Code](https://github.com/FazleRabbeBipul/CSES-Graph-Algorithms/blob/main/Round_Trip_II.cpp) | [Solution Idea](#round-trip-ii-solution)
+15. **[Course Schedule](https://cses.fi/problemset/task/1206)** - [C++ Code](https://github.com/FazleRabbeBipul/CSES-Graph-Algorithms/blob/main/Course_Schedule.cpp) | [Solution Idea](#course-schedule-solution)
+16. **[Longest Flight Route](https://cses.fi/problemset/task/1207)** - [C++ Code](https://github.com/FazleRabbeBipul/CSES-Graph-Algorithms/blob/main/Longest_Flight_Route.cpp) | [Solution Idea](#longest-flight-route-solution)
+17. **[Game Routes](https://cses.fi/problemset/task/1208)** - [C++ Code](https://github.com/FazleRabbeBipul/CSES-Graph-Algorithms/blob/main/Game_Routes.cpp) | [Solution Idea](#game-routes-solution)
+18. **[Investigation](https://cses.fi/problemset/task/1209)** - [C++ Code](https://github.com/FazleRabbeBipul/CSES-Graph-Algorithms/blob/main/Investigation.cpp) | [Solution Idea](#investigation-solution)
+19. **[Planets Queries I](https://cses.fi/problemset/task/1210)** - [C++ Code](https://github.com/FazleRabbeBipul/CSES-Graph-Algorithms/blob/main/Planets_Queries_I.cpp) | [Solution Idea](#planets-queries-i-solution)
+20. **[Planets Queries II](https://cses.fi/problemset/task/1211)** - [C++ Code](https://github.com/FazleRabbeBipul/CSES-Graph-Algorithms/blob/main/Planets_Queries_II.cpp) | [Solution Idea](#planets-queries-ii-solution)
+21. **[Planets Cycles](https://cses.fi/problemset/task/1212)** - [C++ Code](https://github.com/FazleRabbeBipul/CSES-Graph-Algorithms/blob/main/Planets_Cycles.cpp) | [Solution Idea](#planets-cycles-solution)
+22. **[Road Reparation](https://cses.fi/problemset/task/1213)** - [C++ Code](https://github.com/FazleRabbeBipul/CSES-Graph-Algorithms/blob/main/Road_Reparation.cpp) | [Solution Idea](#road-reparation-solution)
+23. **[Road Construction](https://cses.fi/problemset/task/1214)** - [C++ Code](https://github.com/FazleRabbeBipul/CSES-Graph-Algorithms/blob/main/Road_Construction.cpp) | [Solution Idea](#road-construction-solution)
+24. **[Flight Routes Check](https://cses.fi/problemset/task/1215)** - [C++ Code](https://github.com/FazleRabbeBipul/CSES-Graph-Algorithms/blob/main/Flight_Routes_Check.cpp) | [Solution Idea](#flight-routes-check-solution)
+25. **[Planets and Kingdoms](https://cses.fi/problemset/task/1216)** - [C++ Code](https://github.com/FazleRabbeBipul/CSES-Graph-Algorithms/blob/main/Planets_and_Kingdoms.cpp) | [Solution Idea](#planets-and-kingdoms-solution)
+26. **[Giant Pizza](https://cses.fi/problemset/task/1217)** - [C++ Code](https://github.com/FazleRabbeBipul/CSES-Graph-Algorithms/blob/main/Giant_Pizza.cpp) | [Solution Idea](#giant-pizza-solution)
+27. **[Coin Collector](https://cses.fi/problemset/task/1218)** - [C++ Code](https://github.com/FazleRabbeBipul/CSES-Graph-Algorithms/blob/main/Coin_Collector.cpp) | [Solution Idea](#coin-collector-solution)
+28. **[Mail Delivery](https://cses.fi/problemset/task/1219)** - [C++ Code](https://github.com/FazleRabbeBipul/CSES-Graph-Algorithms/blob/main/Mail_Delivery.cpp) | [Solution Idea](#mail-delivery-solution)
+29. **[De Bruijn Sequence](https://cses.fi/problemset/task/1220)** - [C++ Code](https://github.com/FazleRabbeBipul/CSES-Graph-Algorithms/blob/main/De_Bruijn_Sequence.cpp) | [Solution Idea](#de-bruijn-sequence-solution)
+30. **[Teleporters Path](https://cses.fi/problemset/task/1221)** - [C++ Code](https://github.com/FazleRabbeBipul/CSES-Graph-Algorithms/blob/main/Teleporters_Path.cpp) | [Solution Idea](#teleporters-path-solution)
+31. **[Hamiltonian Flights](https://cses.fi/problemset/task/1222)** - [C++ Code](https://github.com/FazleRabbeBipul/CSES-Graph-Algorithms/blob/main/Hamiltonian_Flights.cpp) | [Solution Idea](#hamiltonian-flights-solution)
+32. **[Knight's Tour](https://cses.fi/problemset/task/1223)** - [C++ Code](https://github.com/FazleRabbeBipul/CSES-Graph-Algorithms/blob/main/Knights_Tour.cpp) | [Solution Idea](#knights-tour-solution)
+33. **[Download Speed](https://cses.fi/problemset/task/1224)** - [C++ Code](https://github.com/FazleRabbeBipul/CSES-Graph-Algorithms/blob/main/Download_Speed.cpp) | [Solution Idea](#download-speed-solution)
+34. **[Police Chase](https://cses.fi/problemset/task/1225)** - [C++ Code](https://github.com/FazleRabbeBipul/CSES-Graph-Algorithms/blob/main/Police_Chase.cpp) | [Solution Idea](#police-chase-solution)
+35. **[School Dance](https://cses.fi/problemset/task/1226)** - [C++ Code](https://github.com/FazleRabbeBipul/CSES-Graph-Algorithms/blob/main/School_Dance.cpp) | [Solution Idea](#school-dance-solution)
+36. **[Distinct Routes](https://cses.fi/problemset/task/1227)** - [C++ Code](https://github.com/FazleRabbeBipul/CSES-Graph-Algorithms/blob/main/Distinct_Routes.cpp) | [Solution Idea](#distinct-routes-solution)
 
 ## Solution Approaches
 
 ### Counting Rooms Solution
-- **Link to Problem**: [Counting Rooms](https://cses.fi/problemset/task/1192)
-- **Solution Idea**: Use Depth First Search (DFS) to explore the grid. Each DFS call marks a new room, and we count how many such calls are made to determine the total number of distinct rooms.
+Solution idea for **Counting Rooms** goes here...
 
 ### Labyrinth Solution
-- **Link to Problem**: [Labyrinth](https://cses.fi/problemset/task/1193)
-- **Solution Idea**: Implement Breadth First Search (BFS) to explore all possible paths through the maze. BFS is ideal for finding the shortest path in an unweighted grid.
+Solution idea for **Labyrinth** goes here...
 
 ### Building Roads Solution
-- **Link to Problem**: [Building Roads](https://cses.fi/problemset/task/1194)
-- **Solution Idea**: Use the Union-Find (Disjoint Set Union) algorithm to efficiently determine connected components and calculate the minimum number of roads needed to connect all the cities.
-
-### Message Route Solution
-- **Link to Problem**: [Message Route](https://cses.fi/problemset/task/1195)
-- **Solution Idea**: Dijkstra's algorithm is used to find the shortest path from the starting point to the destination, taking into account weighted edges.
-
-### Building Teams Solution
-- **Link to Problem**: [Building Teams](https://cses.fi/problemset/task/1196)
-- **Solution Idea**: Use BFS/DFS to check if the graph is bipartite by attempting to color the graph using two colors. If successful, the graph can be divided into two teams.
-
-### Round Trip Solution
-- **Link to Problem**: [Round Trip](https://cses.fi/problemset/task/1197)
-- **Solution Idea**: Detect cycles in the undirected graph using DFS or BFS. Once a cycle is found, the round trip can be constructed by backtracking.
-
-### Monsters Solution
-- **Link to Problem**: [Monsters](https://cses.fi/problemset/task/1198)
-- **Solution Idea**: A two-phase BFS: First, run BFS to propagate the monsters’ spread across the grid. Then, run BFS again to find the shortest safe path from the start to the exit.
-
-### Shortest Routes I Solution
-- **Link to Problem**: [Shortest Routes I](https://cses.fi/problemset/task/1199)
-- **Solution Idea**: Dijkstra's algorithm is used to find the shortest paths from the starting point to all other nodes in the graph.
-
-### Shortest Routes II Solution
-- **Link to Problem**: [Shortest Routes II](https://cses.fi/problemset/task/1200)
-- **Solution Idea**: Bellman-Ford algorithm is used to handle negative edge weights and detect potential negative cycles in the graph.
-
-### High Score Solution
-- **Link to Problem**: [High Score](https://cses.fi/problemset/task/1201)
-- **Solution Idea**: Use dynamic programming (DP) on a directed acyclic graph (DAG) to calculate the highest possible score while navigating the graph.
-
----
-
+Solution idea for **Building Roads** goes here...
 
 
 
